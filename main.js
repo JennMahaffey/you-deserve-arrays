@@ -19,16 +19,16 @@ function getIndex3(arr){
   }
 
 
-function isLongList(){
-
+function isLongList(arr){
+return (arr.length >= 10);
 }
 
-function firstItemIsNumber(){
-
+function firstItemIsNumber(arr){
+return typeof arr[0] === 'number';
 }
 
-function secondCharOfThirdString(){
-
+function secondCharOfThirdString(arr){
+  return arr[2][1];
 }
 
 
